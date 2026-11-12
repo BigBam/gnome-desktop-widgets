@@ -9,6 +9,9 @@ plus a one-command installer that picks up anything new you add to the repo.
 | **Desktop Top Widget** | Live `top` output in a semi-transparent panel on the desktop, behind windows. |
 | **Desktop News Widget** | Top stories from free RSS feeds (NPR, ABC News, BBC, The Guardian) in a desktop card. |
 | **Desktop Weather Widget** | Current weather for a few cities from Open-Meteo (free, no API key) in a desktop card. |
+| **Desktop World Clock** | The time in a few cities, with day and hour offsets, in a desktop card that tucks in next to the others. Night-time hours are dimmed. |
+| **Network Speed Indicator** | Live ↓ download / ↑ upload speed in the top bar. Click for per-interface rates and totals. VPN/tunnel interfaces are shown but not double-counted. |
+| **Pomodoro Timer** | A focus timer in the top bar: 25-min focus, 5-min short and 15-min long breaks, with a sound and notification at the end of each. Keeps running while the screen is locked. |
 
 Tested on GNOME Shell 50 (Ubuntu 26.04); metadata declares GNOME 45–50.
 
@@ -43,7 +46,8 @@ and `baobab` (Disk Usage Analyzer, opened from the disk indicator's menu).
 Each widget keeps its settings as constants at the top of its `extension.js` —
 for example the cities and units in
 [`desktop-weather-widget@local/extension.js`](extensions/desktop-weather-widget@local/extension.js),
-the feeds in the news widget, or the corner the `top` panel sits in.
+the feeds in the news widget, the corner the `top` panel sits in, the cities
+in the world clock, or the Pomodoro session lengths.
 Edit, re-run `./install.sh`, and log out and back in.
 
 ## Adding a new widget or tool

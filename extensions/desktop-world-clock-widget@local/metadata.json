@@ -1,0 +1,7 @@
+{
+  "uuid": "desktop-world-clock-widget@local",
+  "name": "Desktop World Clock",
+  "description": "The time in a few cities around the world, in a small card on the desktop, behind windows.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "version": 1
+}

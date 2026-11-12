@@ -1,0 +1,7 @@
+{
+  "uuid": "pomodoro-timer@local",
+  "name": "Pomodoro Timer",
+  "description": "A focus timer in the top bar: 25-minute focus sessions, short and long breaks, with a notification and sound when each one ends.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "version": 1
+}

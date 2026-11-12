@@ -1,0 +1,7 @@
+{
+  "uuid": "network-speed-indicator@local",
+  "name": "Network Speed Indicator",
+  "description": "Live download and upload speed in the top bar. Click for a per-interface breakdown and totals since boot.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "version": 1
+}

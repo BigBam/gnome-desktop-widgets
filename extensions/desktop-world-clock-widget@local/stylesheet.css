@@ -1,0 +1,40 @@
+.clock-card {
+    background-color: rgba(28, 28, 30, 0.80);
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    padding: 14px 16px 6px 16px;
+}
+
+.clock-header {
+    color: #ffb340;
+    font-weight: 800;
+    font-size: 12pt;
+    padding-bottom: 4px;
+}
+
+.clock-row { spacing: 12px; padding: 8px 0; }
+
+.clock-city {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 10.5pt;
+}
+
+.clock-sub {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 8.5pt;
+}
+
+.clock-time {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 18pt;
+    font-feature-settings: "tnum";
+}
+
+.clock-night .clock-time { color: rgba(255, 255, 255, 0.60); }
+
+.clock-sep {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.12);
+}

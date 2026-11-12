@@ -1,0 +1,4 @@
+.pomodoro-label { font-feature-settings: "tnum"; }
+.pomodoro-focus .pomodoro-label { color: #ff6b6b; }
+.pomodoro-break .pomodoro-label { color: #5ad18a; }
+.pomodoro-paused .pomodoro-label { color: rgba(255, 255, 255, 0.55); }

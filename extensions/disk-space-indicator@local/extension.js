@@ -40,6 +40,7 @@ const DiskIndicator = GObject.registerClass(
 class DiskIndicator extends PanelMenu.Button {
     _init() {
         super._init(0.0, 'Disk Space Indicator');
+        this.connect('destroy', () => this._onDestroy());
 
         const box = new St.BoxLayout({style_class: 'panel-status-menu-box'});
         box.add_child(new St.Icon({
@@ -114,13 +115,14 @@ class DiskIndicator extends PanelMenu.Button {
         }
     }
 
-    destroy() {
+    // Use the signal, not a destroy() override: the shell can dispose the
+    // actor from C (e.g. at shutdown) without calling our JS method.
+    _onDestroy() {
         this._destroyed = true;
         if (this._timer) {
             GLib.source_remove(this._timer);
             this._timer = null;
         }
-        super.destroy();
     }
 });
 

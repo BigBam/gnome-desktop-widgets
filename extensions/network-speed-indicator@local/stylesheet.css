@@ -1,0 +1,5 @@
+.netspeed-label {
+    font-feature-settings: "tnum";
+    min-width: 9.5em;
+    text-align: right;
+}
