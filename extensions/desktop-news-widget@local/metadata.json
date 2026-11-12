@@ -1,0 +1,7 @@
+{
+  "uuid": "desktop-news-widget@local",
+  "name": "Desktop News Widget",
+  "description": "Top stories from free RSS feeds (NPR, ABC News, BBC, The Guardian) in a card on the desktop, behind windows.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "version": 1
+}

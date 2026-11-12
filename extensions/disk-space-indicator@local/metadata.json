@@ -1,0 +1,7 @@
+{
+  "uuid": "disk-space-indicator@local",
+  "name": "Disk Space Indicator",
+  "description": "Shows free disk space in the top bar. Click for details and to open Disk Usage Analyzer.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "version": 1
+}

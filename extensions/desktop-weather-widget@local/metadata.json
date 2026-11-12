@@ -1,0 +1,7 @@
+{
+  "uuid": "desktop-weather-widget@local",
+  "name": "Desktop Weather Widget",
+  "description": "Current weather for a few cities (free Open-Meteo data, no API key) in a small card on the desktop, behind windows.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "version": 1
+}

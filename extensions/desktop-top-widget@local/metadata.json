@@ -1,0 +1,7 @@
+{
+  "uuid": "desktop-top-widget@local",
+  "name": "Desktop Top Widget",
+  "description": "Shows live `top` output in a semi-transparent panel on the desktop, behind windows.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "version": 1
+}

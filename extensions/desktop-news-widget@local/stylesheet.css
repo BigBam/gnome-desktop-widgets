@@ -1,0 +1,88 @@
+.news-card {
+    background-color: rgba(28, 28, 30, 0.80);
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    padding: 16px 16px 10px 16px;
+    spacing: 0;
+}
+
+.news-header-box { spacing: 6px; padding-bottom: 10px; }
+
+.news-header {
+    color: #ff453a;
+    font-weight: 800;
+    font-size: 12pt;
+}
+
+.news-updated {
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 8.5pt;
+}
+
+.news-hero-img {
+    height: 172px;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.08);
+    background-size: cover;
+}
+
+.news-hero-text { padding-top: 10px; padding-bottom: 10px; spacing: 3px; }
+
+.news-meta-box { spacing: 6px; }
+
+.news-source {
+    color: rgba(255, 255, 255, 0.95);
+    font-weight: 800;
+    font-size: 8.5pt;
+}
+
+.news-time {
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 8.5pt;
+}
+
+.news-hero-title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 12.5pt;
+}
+
+.news-sep {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.news-row { spacing: 12px; padding: 10px 0; }
+
+.news-row-text { spacing: 3px; }
+
+.news-title {
+    color: rgba(255, 255, 255, 0.95);
+    font-weight: 600;
+    font-size: 10.5pt;
+}
+
+.news-thumb {
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.08);
+    background-size: cover;
+}
+
+.news-status {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 10pt;
+    padding: 20px 0;
+}
+
+/* hover: headline turns accent colour, picture brightens slightly */
+.news-hero:hover .news-hero-title,
+.news-row:hover .news-title {
+    color: #ff6961;
+}
+
+.news-hero:hover .news-hero-img,
+.news-row:hover .news-thumb {
+    border: 1px solid rgba(255, 255, 255, 0.35);
+}
